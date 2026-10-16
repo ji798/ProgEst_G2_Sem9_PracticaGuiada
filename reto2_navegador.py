@@ -11,15 +11,15 @@ allowed_pages = [
 ]
 
 def visit_page(url):
-    global current_page
+    global current_page #Esta almacena la página que estamos visitando actualmente y la actualiza en todo el codigo no solo en visit
 
-    url = url.strip().lower()
+    url = url.strip().lower() #para q no lo escrriban mal
 
     if url not in allowed_pages:
-        print("Pestaña equicada")
+        print("Pestaña equicada") 
         return
 
-    if current_page is not None:
+    if current_page is not None: #none sirve para ayudar con los errores el usa l codigo
         history.append(current_page)
 
     current_page = url
