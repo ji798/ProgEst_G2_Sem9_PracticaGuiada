@@ -5,3 +5,7 @@ Implementar estructuras de datos lineales de tipo pila y cola utilizando Python,
 •	Integrante 2: Javier Isaac Suazo Mena.
 •	Integrante 3: David Alejandro Bermudez Barberena.
 •	Integrante 4: Michael Alejandro Wong.
+Grupo numero 3
+fecha: Viernes 10/15/2026
+Docente: Profesor Jose Duran
+
