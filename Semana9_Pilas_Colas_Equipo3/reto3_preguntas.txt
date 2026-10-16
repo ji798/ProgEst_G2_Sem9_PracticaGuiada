@@ -1,0 +1,10 @@
+"""Diferencia entre pop() y popleft():
+pop() quita y devuelve el último elemento (el del extremo derecho). En una lista
+se usa pila.pop(); en una deque también se puede usar cola.pop().
+popleft() quita y devuelve el primer elemento (el del extremo izquierdo) de una
+collections.deque. Por eso, una cola se atiende con append() para agregar al final
+y popleft() para retirar del frente, respetando FIFO.
+
+Si se usara una pila para atender clientes, se retiraría primero al último que
+llegó (LIFO), en lugar de respetar el orden de llegada. Los clientes que llegan
+después podrían ser atendidos antes que quienes llevan más tiempo esperando."""
